@@ -1,5 +1,5 @@
 # MAT 211 Lean Homework 
-# based on "The Mechanics of Proof" by Heather Macbeth
+# Based on "The Mechanics of Proof" by Heather Macbeth
 
 This repository contains the Lean code for the book [The Mechanics of Proof](https://hrmacbeth.github.io/math2001), by [Heather Macbeth](https://faculty.fordham.edu/hmacbeth1), originally developed for the course Math 2001 at Fordham University.
 
@@ -13,4 +13,4 @@ To complete the homework either
 
 (2) install VS Code on your computer, add the Lean4 extension (by Leanprover), clone this repository to your computer, and allow Elan to manage Lean version and toolchain. 
 
-The simplest method to get started quickly is using Codespaces, however installing VS Code on your local computer (with Lean) helps develop skill with GitHub and software development and might provide faster load times when returing to work on an assignment.
+Note: the simplest method to get started quickly is using Codespaces, however installing VS Code on your local computer (with Lean) helps develop skill with GitHub and software development generally and also might provide faster load times when returing to work on an assignment later.

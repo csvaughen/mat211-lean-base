@@ -3,8 +3,7 @@ import Library.Basic
 
 math2001_init
 
-/- MAT 211 HW0
-To Do:
+/- MAT 211 HW0 To Do:
 * make sure to uncomment and correct the statement in the example below
 * replace each "sorry" in the last example
 -/
