@@ -3,15 +3,22 @@ import Library.Basic
 
 math2001_init
 
+/- MAT 211 HW0
+To Do:
+* make sure to uncomment and correct the statement in the example below
+* replace each "sorry" in the last example
+-/
+
 /- here is a proof that's too simple -/
 
 example : 2 + 2 = 4 := by ring
 
 /- here is a proof that is wrong, try removing the comments and correcting it
-
 example : 2^3 = 10 := by ring
-
 -/
+
+-- we will spend time learning about types - lean is based on types
+-- check the infoview for the following to see their type
 
 #check 2+2
 
@@ -30,6 +37,7 @@ example {a : ℤ} (h : a = 3) : a + 1 = 4 :=
   calc
     a + 1 = 3 + 1 := by rw [h]  -- cursor here: see the goal change
     _ = 4 := by ring
+
 
 /- below is a more involved proof from Heather Macbeth's book
 and below that another one that we can complete
