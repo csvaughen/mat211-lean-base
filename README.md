@@ -1,8 +1,11 @@
-# MAT 211 Lean Homework based on "The Mechanics of Proof" by Heather Macbeth
+# MAT 211 Lean Homework 
+# based on "The Mechanics of Proof" by Heather Macbeth
 
 This repository contains the Lean code for the book [The Mechanics of Proof](https://hrmacbeth.github.io/math2001), by [Heather Macbeth](https://faculty.fordham.edu/hmacbeth1), originally developed for the course Math 2001 at Fordham University.
 
 The Lean files corresponding to each chapter of the book are in the folder [`Math2001`](https://github.com/hrmacbeth/math2001/tree/main/Math2001).
+
+Homework for MAT 211 is in the subfolder MAT211_Homework in the MATH2001 folder.
 
 To complete the homework either 
 
