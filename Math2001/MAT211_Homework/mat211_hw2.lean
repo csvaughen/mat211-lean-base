@@ -7,8 +7,10 @@ math2001_init
 -- From Section 1.3 Tips and Tricks in Mechanics of Proof by Heather Macbeth
 -- see textbook Mechanics of Proof for hints
 
-/- For full credit use only "ring" and "rw" tactics in a single "calc" block as done in
-the textbook Mechanics of Proof -/
+/- For full credit use only "calc" blocks for a proof and use only "ring", or "rw".
+   You may also use the "have" tactic, for an intermediate result, but this is not
+   really necessary given that "have" is introduced in chapter 2.
+-/
 
 
 -- Example 1.3.6
@@ -46,4 +48,3 @@ example {a b : ℤ} (h : a - b = 0) : a = b :=
 example {a b c : ℝ} (h1 : a + 2 * b + 3 * c = 7) (h2 : b + 2 * c = 3)
     (h3 : c = 1) : a = 2 :=
   sorry
-
