@@ -30,18 +30,19 @@ example {m n : ℝ} (h1 : m ≤ 8 - n) : 10 > m + n := by sorry
 -- Question #4
 example {w : ℚ} (h1 : 3 * w + 1 = 4) : w = 1 := sorry
 
--- ANSWER the following question as a comment
+-- ANSWER THE FOLLOW QUESTION #5 AS A COMMENT BELOW
 
 -- Question #5
 -- Why doesn't 'addarith' work in the previous example?
 
--- NOW WRITE a CORRECT lean argument for example Question #4
+
+-- NOW WRITE a CORRECT lean argument to complete Question #4 above
 -- hint: we did this one in a previous lean assignment
 
 
--- SECTION 2.1 Intermediate Steps
+/-! # Section 2.1 Intermediate Steps -/
+-- SECTION 2.1 Intermediate Steps from Mechanics of Proof
 
--- Examples here are from Mechanics of Proof, section 2.1
 
 example {a b : ℝ} (h1 : a - 5 * b = 4) (h2 : b + 2 = 3) : a = 9 := by
   have hb : b = 1 := by addarith [h2]
@@ -58,6 +59,7 @@ example {m n : ℤ} (h1 : m + 3 ≤ 2 * n - 1) (h2 : n ≤ 5) : m ≤ 6 := by
     _ ≤ 2 * 5 - 1 := by rel [h2]
     _ = 9 := by numbers
   addarith [h3]
+
 
 -- Question #6
 example {r s : ℚ} (h1 : s + 3 ≥ r) (h2 : s + r ≤ 3) : r ≤ 3 := by
